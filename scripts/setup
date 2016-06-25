@@ -1,0 +1,5 @@
+source ~/venv/bin/activate
+cd /vagrant
+git clone https://github.com/SUMSarizer/SUMSarizer
+cd /vagrant/sumsarizer
+pip install -r requirements.txt
