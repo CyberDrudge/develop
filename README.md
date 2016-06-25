@@ -36,4 +36,4 @@ Login to the machine:
 Start
 ---
 
-    start
+    runapp
