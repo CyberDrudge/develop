@@ -2,8 +2,3 @@ source ~/venv/bin/activate
 
 export APP_SETTINGS="config.DevelopmentConfig"
 export DATABASE_URL="postgresql://localhost/sums"
-
-# Dummy values for development
-export STORMPATH_API_KEY_ID="foo"
-export STORMPATH_API_KEY_SECRET="bar"
-export STORMPATH_APPLICATION="sumsarizer"

@@ -1,0 +1,5 @@
+sudo -u postgres psql -c 'DROP DATABASE sums;'
+sudo -u postgres createdb sums
+
+cd /vagrant/sumsarizer
+python manage.py db upgrade

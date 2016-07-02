@@ -1,3 +1,2 @@
-source .env
-source venv/bin/activate
+cd /vagrant/sumsarizer
 python manage.py db migrate
