@@ -2,3 +2,4 @@ source ~/venv/bin/activate
 
 export APP_SETTINGS="config.DevelopmentConfig"
 export DATABASE_URL="postgresql://localhost/sums"
+export ML_FOLDER="/vagrant/sumsarizer/ml_labeler"
